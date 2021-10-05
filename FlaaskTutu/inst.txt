@@ -1,0 +1,19 @@
+1:make template and static folders
+2:make index.html  in template folder
+#Bootstrap: Simple ready made templates of basic web pages.can be downloaded and use
+#url_for('static',filename='')# use this for accessing files in static
+#layout.html(jinja 2)
+"""
+<head>(headings and all structure,style etc)
+{% block content %}
+{% endblock %}
+<footer>
+"""
+# in other html
+"""
+{% extends 'layout.html' %}
+
+{% block content %}
+   body content
+{% endblock %}
+"""
