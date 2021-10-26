@@ -1,0 +1,40 @@
+2021-10-26 10:30:53,313 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-10-26 10:30:53,313 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\crazi\Desktop\appPrograms\python3.7.4\lib\site-packages\instabot\bot\bot.py
+2021-10-26 10:30:56,475 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-10-26 10:30:56,475 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-10-26 10:30:56,475 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\crazi\Desktop\myprograms\Pycharm Projects\Pycharm Projects/config/craziness_speaks_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=93f31c01-0718-4543-a5be-b27e73603b4f
+- uuid=e11efc25-ba5f-4c3a-9e30-f742cb42e777
+- client_session_id=55fbdbe6-9148-45dd-b29f-7abbcce4f1c0
+- device_id=android-104a8532e3074c7f
+2021-10-26 10:30:56,479 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-10-26 10:30:57,507 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [403]>
+2021-10-26 10:30:57,507 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"login_required","error_title":"You\'ve Been Logged Out","error_body":"Please log back in.","logout_reason":8,"status":"fail"}'
+2021-10-26 10:30:57,507 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2021-10-26 10:30:58,327 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [403]>
+2021-10-26 10:30:58,327 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"login_required","error_title":"You\'ve Been Logged Out","error_body":"Please log back in.","logout_reason":8,"status":"fail"}'
+2021-10-26 10:30:58,327 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2021-10-26 10:30:58,327 - instabot version: 0.117.0 (api) - INFO - Login flow failed, the cookie is broken. Relogin again.
+2021-10-26 10:30:58,344 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-10-26 10:30:58,344 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-10-26 10:30:58,344 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\crazi\Desktop\myprograms\Pycharm Projects\Pycharm Projects/config/craziness_speaks_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=93f31c01-0718-4543-a5be-b27e73603b4f
+- uuid=e11efc25-ba5f-4c3a-9e30-f742cb42e777
+- client_session_id=55fbdbe6-9148-45dd-b29f-7abbcce4f1c0
+- device_id=android-104a8532e3074c7f
+2021-10-26 10:30:58,344 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-10-26 10:30:59,141 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [403]>
+2021-10-26 10:30:59,141 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"login_required","error_title":"You\'ve Been Logged Out","error_body":"Please log back in.","logout_reason":8,"status":"fail"}'
+2021-10-26 10:30:59,141 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2021-10-26 10:30:59,968 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-10-26 10:31:00,884 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-10-26 10:31:01,708 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2021-10-26 10:31:03,947 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2021-10-26 10:31:03,947 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","invalid_credentials":true,"error_title":"Incorrect password for craziness_speaks","buttons":[{"title":"Try Again","action":"dismiss"}],"status":"fail","error_type":"bad_password"}'
+2021-10-26 10:31:03,947 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-10-26 10:31:03,947 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2021-10-26 10:31:03,947 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2021-10-26 10:31:03,947 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2021-10-26 10:31:03,947 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.

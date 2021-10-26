@@ -1,0 +1,17 @@
+2021-10-26 11:04:22,373 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-10-26 11:04:22,373 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\crazi\Desktop\appPrograms\python3.7.4\lib\site-packages\instabot\bot\bot.py
+2021-10-26 11:04:26,104 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-10-26 11:04:26,104 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-10-26 11:04:26,104 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\crazi\Desktop\myprograms\Pycharm Projects\Pycharm Projects/config/craziness_speaks_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=93f31c01-0718-4543-a5be-b27e73603b4f
+- uuid=e11efc25-ba5f-4c3a-9e30-f742cb42e777
+- client_session_id=55fbdbe6-9148-45dd-b29f-7abbcce4f1c0
+- device_id=android-104a8532e3074c7f
+2021-10-26 11:04:26,104 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-10-26 11:04:35,321 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-10-26 11:04:50,579 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-10-26 11:04:50,581 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'craziness_speaks'!
+2021-10-26 11:04:50,581 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\crazi\Desktop\myprograms\Pycharm Projects\Pycharm Projects/config/craziness_speaks.checkpoint
+2021-10-26 11:04:51,462 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\crazi\Desktop\myprograms\Pycharm Projects\Pycharm Projects/config/craziness_speaks.checkpoint
+2021-10-26 11:04:51,463 - instabot version: 0.117.0 (bot) - INFO - Total requests: 40
